@@ -18,16 +18,60 @@
         </center>
     </form>
     <style>
+        *{
+            margin: 0;
+            padding: 50;
+            box-sizing: border-box;
+        }
         body{
-            background-color: midnightblue;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 100;
         }
         .grid {
             color: goldenrod;
-            font-size: larger;
+            font-size: 500%;
             font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            margin: 200px;
+        }
+        input[type = text]{
+            width: 100%;
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            text-align: center;
+            margin: 8px 0;
+            margin-top: 30px;
+            outline: none;
+            padding: 15px;
+            box-sizing: border-box;
+            transition: .3s;
+        }
+        input[type = text]:focus{
+            border-color: dodgerblue;
+            box-shadow: 0 0 8px 0 dodgerblue;
         }
         .file_submit{
-            background-color: lightcoral;
+            margin: 100px;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            color: darkblue;
+            border-radius: 50px;
+            border: 10px lightcoral;
+            outline: none;
+            font-size: medium;
+            background-color:whitesmoke;
+            animation-duration: 3s;
+        }
+        .file_submit:focus{
+            background-color:rgb(246, 253, 246);
         }
     </style>
 </body>

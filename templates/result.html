@@ -8,34 +8,40 @@
 </head>
 <body>
     <div class="block">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
         <h1 class="title">Review is {{review}}</h1>
-        <p>
+        <br><br><br>
             {{text}}
-        </p>
     </div>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            min-height: 100vh;
-            background-color:#0c192c;
-        }
-        .block{
-            justify-content: center;
-            align-self: center;
-        }
-        .title{
-            color:goldenrod;
-        }
-        .block p{
-            font-size: large;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: 300;
-            color:moccasin;
-        }
-    </style>
 </body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        min-height: 100vh;
+        background-color:whitesmoke;
+        background-position: center;
+    }
+    .block{
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        color:gray;
+        text-align: center;
+    }
+
+    .title{
+        color:goldenrod;
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 </html>

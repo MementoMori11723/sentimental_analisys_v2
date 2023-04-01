@@ -14,18 +14,22 @@ def home():
 def result():
     if request.method=='POST':
         url = request.form['url']
-        nltk.download('punkt')
-        artical = Article(url)
-        artical.download()
-        artical.parse()
-        artical.nlp()
-        text = artical.summary
-        blob = TextBlob(text)
-        sentiment = blob.sentiment.polarity
-        if sentiment >= 0:
-            return render_template("result.html",text = text, review = "Good")
+        if url != "":
+            nltk.download('punkt')
+            artical = Article(url)
+            artical.download()
+            artical.parse()
+            artical.nlp()
+            text = artical.summary
+            blob = TextBlob(text)
+            sentiment = blob.sentiment.polarity
+            if sentiment >= 0:
+                return render_template("result.html",text = text, review = "Good")
+            else:
+                return render_template("result.html",text = text, review = "Bad")
         else:
-            return render_template("result.html",text = text, review = "Bad")
+            return render_template("404.html")
+
 
 
 if __name__ == "__main__":
