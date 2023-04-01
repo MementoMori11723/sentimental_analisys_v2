@@ -1,4 +1,4 @@
 flask==2.2.3
-nltk==3.8.1
-newspaper==0.2.8
-textblob==0.17.1
+nltk
+newspaper
+textblob
