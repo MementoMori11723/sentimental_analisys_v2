@@ -7,3 +7,5 @@ this is a project that is running on zeet
 or
 
 ### scan [me](https://github.com/MementoMori11723/sentimental_analisys_v2/edit/master/Screenshot.png) to visit the website
+
+  > note: this is a desktop based application not optimized for your phone
