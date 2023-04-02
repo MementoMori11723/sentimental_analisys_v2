@@ -6,5 +6,4 @@ this is a project that is running on zeet
 
 or
 
-### scan to visit the website
-<img src='https://github.com/MementoMori11723/sentimental_analisys_v2/edit/master/Screenshot.png' height='100'/>
+### scan [me](https://github.com/MementoMori11723/sentimental_analisys_v2/edit/master/Screenshot.png) to visit the website
