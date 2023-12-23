@@ -2,3 +2,4 @@ flask==2.2.3
 nltk
 newspaper3k
 textblob
+Werkzeug==2.2.2
